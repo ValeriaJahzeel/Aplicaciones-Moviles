@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "722287841582",
+    "project_id": "appcomunitaria-e778d",
+    "storage_bucket": "appcomunitaria-e778d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722287841582:android:27fbf3b40be9fb6d4d6abf",
+        "android_client_info": {
+          "package_name": "com.example.appcomunitaria"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALgKvfNGx-J5GJtMYSm5hE3EmT67pr7Pk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

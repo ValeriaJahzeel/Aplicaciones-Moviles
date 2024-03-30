@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">722287841582</string>
+    <string name="google_api_key" translatable="false">AIzaSyALgKvfNGx-J5GJtMYSm5hE3EmT67pr7Pk</string>
+    <string name="google_app_id" translatable="false">1:722287841582:android:27fbf3b40be9fb6d4d6abf</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyALgKvfNGx-J5GJtMYSm5hE3EmT67pr7Pk</string>
+    <string name="google_storage_bucket" translatable="false">appcomunitaria-e778d.appspot.com</string>
+    <string name="project_id" translatable="false">appcomunitaria-e778d</string>
+</resources>
