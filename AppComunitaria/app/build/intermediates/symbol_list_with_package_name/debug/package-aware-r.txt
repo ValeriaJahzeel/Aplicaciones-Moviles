@@ -695,7 +695,9 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable cruzroja
 drawable directorio
+drawable emergencia
 drawable encuestas
 drawable foro
 drawable googleg_disabled_color_18
@@ -726,6 +728,7 @@ drawable oig2_removebg_preview
 drawable perrera
 drawable poli
 drawable problemas
+drawable proteccion_civil_logo_gen
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light

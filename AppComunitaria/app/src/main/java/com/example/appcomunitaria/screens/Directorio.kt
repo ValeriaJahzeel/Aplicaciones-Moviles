@@ -1,5 +1,6 @@
 package com.example.appcomunitaria.screens
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.content.res.Configuration
@@ -10,6 +11,8 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -18,20 +21,28 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalConfiguration
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.appcomunitaria.R
-
 data class Contact(
     val id: Int,
     val name: String,
@@ -50,58 +61,42 @@ val contactList = listOf(
     Contact(7, "Comisión del agua", "548-453-5545", R.drawable.agua, "Reporte de problemas con el suministro de agua")
 )
 
-
-
+@SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun Directorio(context: Context){
-    val selectedContact = remember { mutableStateOf<Contact?>(null) }
-    val isLandscape = LocalConfiguration.current.orientation == Configuration.ORIENTATION_LANDSCAPE
-
-    ContactCardList(contactList = contactList) { contact ->
-        // Crear una intención implícita para realizar una llamada telefónica
-        val intent = Intent(Intent.ACTION_DIAL)
-        intent.data = Uri.parse("tel:${contact.phoneNumber}")
-        // Iniciar la actividad correspondiente
-        context.startActivity(intent)
+fun Directorio(context: Context) {
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                title = { Text("Directorio") },
+                colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
+                    containerColor = Color(0xFF39ACE7),
+                    titleContentColor = Color.White
+                )
+            )
+        }
+    ) {
+        ContactCardList(contactList = contactList) { contact ->
+            val intent = Intent(Intent.ACTION_DIAL)
+            intent.data = Uri.parse("tel:${contact.phoneNumber}")
+            context.startActivity(intent)
+        }
     }
 }
-
 
 @Composable
 fun ContactCardList(contactList: List<Contact>, onContactClick: (Contact) -> Unit) {
-    LazyColumn {
+    LazyColumn(
+        modifier = Modifier
+            .padding(horizontal = 16.dp)
+            .padding(top = 70.dp)
+    ) {
         items(contactList) { contact ->
             ContactCard(contact = contact, onContactClick = onContactClick)
+            Spacer(modifier = Modifier.height(16.dp))
         }
     }
 }
-
-
-@Composable
-fun ContactItem(contact: Contact, onContactClick: (Contact) -> Unit) {
-    Column(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clickable {
-                // Llama a la función de manejo de clics cuando se hace clic en un contacto
-                onContactClick(contact)
-            }
-            .padding(16.dp)
-    ) {
-        Image(
-            painter = painterResource(id = contact.imageRes),
-            contentDescription = null,
-            modifier = Modifier.size(48.dp)
-        )
-        Spacer(modifier = Modifier.width(16.dp))
-        Column {
-            Text(text = contact.name, style = MaterialTheme.typography.headlineSmall)
-            Text(text = contact.phoneNumber, style = MaterialTheme.typography.bodyLarge)
-            Text(text = contact.additionalInfo, style = MaterialTheme.typography.bodySmall)
-        }
-    }
-}
-
 
 @Composable
 fun ContactCard(contact: Contact, onContactClick: (Contact) -> Unit) {
@@ -109,56 +104,52 @@ fun ContactCard(contact: Contact, onContactClick: (Contact) -> Unit) {
         modifier = Modifier
             .fillMaxWidth()
             .clickable { onContactClick(contact) }
-            .padding(horizontal = 16.dp, vertical = 8.dp),
+            .padding(vertical = 8.dp),
         elevation = CardDefaults.cardElevation(
             defaultElevation = 4.dp
+        ),
+        shape = RoundedCornerShape(12.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = Color.LightGray,
+            contentColor = Color.Black
         )
     ) {
-        Column(modifier = Modifier.padding(16.dp)) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Image(
-                    painter = painterResource(id = contact.imageRes),
-                    contentDescription = null,
-                    modifier = Modifier.size(48.dp)
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(100.dp)
+                .padding(16.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Image(
+                painter = painterResource(id = contact.imageRes),
+                contentDescription = null,
+                modifier = Modifier
+                    .fillMaxHeight()
+                    .aspectRatio(1f)
+            )
+            Spacer(modifier = Modifier.width(16.dp))
+            Column(
+                verticalArrangement = Arrangement.Center,
+                modifier = Modifier.weight(1f)
+            ) {
+                Text(
+                    text = contact.name,
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.Black
                 )
-                Spacer(modifier = Modifier.width(16.dp))
-                Column {
-                    Text(text = contact.name, style = MaterialTheme.typography.titleMedium)
-                    Text(text = contact.phoneNumber, style = MaterialTheme.typography.bodyMedium)
-                }
+                Spacer(modifier = Modifier.height(4.dp))
+                Text(text = contact.phoneNumber, style = MaterialTheme.typography.bodyMedium, color = Color.Black)
+                Spacer(modifier = Modifier.height(4.dp))
+                Text(text = contact.additionalInfo, style = MaterialTheme.typography.bodySmall, color = Color.Black)
             }
-            Spacer(modifier = Modifier.height(8.dp))
-            Text(
-                text = "Información adicional:",
-                style = MaterialTheme.typography.bodySmall,
-                modifier = Modifier.padding(top = 8.dp)
-            )
-            Text(
-                text = contact.additionalInfo,
-                style = MaterialTheme.typography.bodyMedium
-            )
         }
     }
 }
 
+@Preview(showBackground = true)
 @Composable
-fun ContactDetailScreen(contact: Contact) {
-    // Detalles del contacto
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(16.dp),
-        verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-        Image(
-            painter = painterResource(id = contact.imageRes),
-            contentDescription = null,
-            modifier = Modifier.size(120.dp)
-        )
-        Spacer(modifier = Modifier.height(16.dp))
-        Text(text = contact.name, style = MaterialTheme.typography.headlineSmall)
-        Spacer(modifier = Modifier.height(8.dp))
-        Text(text = contact.phoneNumber, style = MaterialTheme.typography.bodyLarge)
-    }
+fun DirectorioPreview() {
+    Directorio(context = LocalContext.current)
 }

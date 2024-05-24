@@ -7,21 +7,21 @@ import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.navigation.NavHostController
+import androidx.navigation.NavController
 import com.example.appcomunitaria.models.Items_bottom_nav
 import com.example.appcomunitaria.navigation.currentRoute
 
 
 @Composable
 fun NavegacionInferior(
-    navController: NavHostController
+    navController: NavController
 ){
     val menu_items = listOf(
         Items_bottom_nav.Item_bottom_nav1,
         Items_bottom_nav.Item_bottom_nav2,
         Items_bottom_nav.Item_bottom_nav3,
         Items_bottom_nav.Item_bottom_nav4,
-        Items_bottom_nav.Item_bottom_nav5
+        Items_bottom_nav.Item_bottom_nav5,
     )
     BottomAppBar {
         NavigationBar (

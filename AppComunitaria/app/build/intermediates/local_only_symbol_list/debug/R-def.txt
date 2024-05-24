@@ -11,7 +11,9 @@ drawable agua
 drawable alertas
 drawable biblioteca
 drawable bomberos
+drawable cruzroja
 drawable directorio
+drawable emergencia
 drawable encuestas
 drawable foro
 drawable ic_launcher_background
@@ -21,6 +23,7 @@ drawable oig2_removebg_preview
 drawable perrera
 drawable poli
 drawable problemas
+drawable proteccion_civil_logo_gen
 mipmap alerta
 mipmap alerta_foreground
 mipmap alerta_round

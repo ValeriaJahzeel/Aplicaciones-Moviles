@@ -6968,20 +6968,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\chj06\\OneDrive\\Documents\\Escuela\\6_semestre\\Dispositivos_Moviles\\AplicacionesMoviles\\AppComunitaria\\app\\build\\generated\\res\\processDebugGoogleServices\\values\\values.xml",
+                    "source": "C:\\Users\\chj06\\OneDrive\\Documents\\Escuela\\6_semestre\\Dispositivos_Moviles\\Aplicaciones-Moviles\\AppComunitaria\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,137,241,350,470,574",
-                        "endColumns": "81,103,108,119,103,80",
-                        "endOffsets": "132,236,345,465,569,650"
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "91",
+                        "endOffsets": "143"
                     },
                     "to": {
-                        "startLines": "409,410,411,412,413,421",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "28061,28143,28247,28356,28476,28947",
-                        "endColumns": "81,103,108,119,103,80",
-                        "endOffsets": "28138,28242,28351,28471,28575,29023"
+                        "startLines": "1865",
+                        "startColumns": "4",
+                        "startOffsets": "124777",
+                        "endColumns": "90",
+                        "endOffsets": "124863"
                     }
                 },
                 {
@@ -7067,6 +7067,23 @@
                         "startOffsets": "18998",
                         "endColumns": "49",
                         "endOffsets": "19043"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\chj06\\OneDrive\\Documents\\Escuela\\6_semestre\\Dispositivos_Moviles\\Aplicaciones-Moviles\\AppComunitaria\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,1",
+                        "startColumns": "4,4",
+                        "startOffsets": "68,16",
+                        "endColumns": "45,51",
+                        "endOffsets": "109,63"
+                    },
+                    "to": {
+                        "startLines": "330,332",
+                        "startColumns": "4,4",
+                        "startOffsets": "21412,21541",
+                        "endColumns": "45,51",
+                        "endOffsets": "21453,21588"
                     }
                 },
                 {
@@ -7161,6 +7178,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\chj06\\OneDrive\\Documents\\Escuela\\6_semestre\\Dispositivos_Moviles\\Aplicaciones-Moviles\\AppComunitaria\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "286,55,102,149,196,241,328",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "323,97,144,191,236,281,365"
+                    },
+                    "to": {
+                        "startLines": "23,78,79,80,91,92,95",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "1552,5359,5406,5453,6197,6242,6408",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "1589,5401,5448,5495,6237,6282,6445"
+                    }
+                },
+                {
                     "source": "C:\\Users\\chj06\\.gradle\\caches\\transforms-3\\a9c6170f35e5b8cccc3d2c61ab8eea6c\\transformed\\customview-poolingcontainer-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3",
@@ -7178,20 +7212,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\chj06\\OneDrive\\Documents\\Escuela\\6_semestre\\Dispositivos_Moviles\\AplicacionesMoviles\\AppComunitaria\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\chj06\\OneDrive\\Documents\\Escuela\\6_semestre\\Dispositivos_Moviles\\Aplicaciones-Moviles\\AppComunitaria\\app\\build\\generated\\res\\processDebugGoogleServices\\values\\values.xml",
                     "from": {
-                        "startLines": "2,1",
-                        "startColumns": "4,4",
-                        "startOffsets": "68,16",
-                        "endColumns": "45,51",
-                        "endOffsets": "109,63"
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,137,241,350,470,574",
+                        "endColumns": "81,103,108,119,103,80",
+                        "endOffsets": "132,236,345,465,569,650"
                     },
                     "to": {
-                        "startLines": "330,332",
-                        "startColumns": "4,4",
-                        "startOffsets": "21412,21541",
-                        "endColumns": "45,51",
-                        "endOffsets": "21453,21588"
+                        "startLines": "409,410,411,412,413,421",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "28061,28143,28247,28356,28476,28947",
+                        "endColumns": "81,103,108,119,103,80",
+                        "endOffsets": "28138,28242,28351,28471,28575,29023"
                     }
                 },
                 {
@@ -7211,23 +7245,6 @@
                         "endLines": "333,334,335,336,346,366,367,368,369,372,373,374,375,376,377,378,379,380,381,382,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,403,405,416,424,427,429,433,434,435,436,437,438,439,440,441,442,443,444,447,448",
                         "endColumns": "83,81,76,79,47,60,78,101,81,13,49,64,56,64,84,90,69,92,88,93,13,86,83,91,93,59,63,82,89,62,67,67,96,104,71,64,43,45,68,52,52,67,45,49,66,66,65,64,53,71,66,69,81,45,65,60",
                         "endOffsets": "21672,21754,21831,21911,22589,25051,25130,25232,25314,25430,25480,25545,25602,25667,25752,25843,25913,26006,26095,26189,26334,26421,26505,26597,26691,26751,26815,26898,26988,27051,27119,27187,27284,27389,27461,27526,27737,27841,28756,29180,29332,29471,29690,29740,29807,29874,29940,30005,30059,30131,30198,30268,30350,30396,30573,30634"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\chj06\\OneDrive\\Documents\\Escuela\\6_semestre\\Dispositivos_Moviles\\AplicacionesMoviles\\AppComunitaria\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "286,55,102,149,196,241,328",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "323,97,144,191,236,281,365"
-                    },
-                    "to": {
-                        "startLines": "23,78,79,80,91,92,95",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "1552,5359,5406,5453,6197,6242,6408",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "1589,5401,5448,5495,6237,6282,6445"
                     }
                 },
                 {
@@ -7264,23 +7281,6 @@
                         "startOffsets": "18841",
                         "endColumns": "42",
                         "endOffsets": "18879"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\chj06\\OneDrive\\Documents\\Escuela\\6_semestre\\Dispositivos_Moviles\\AplicacionesMoviles\\AppComunitaria\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "56",
-                        "endColumns": "91",
-                        "endOffsets": "143"
-                    },
-                    "to": {
-                        "startLines": "1865",
-                        "startColumns": "4",
-                        "startOffsets": "124777",
-                        "endColumns": "90",
-                        "endOffsets": "124863"
                     }
                 },
                 {

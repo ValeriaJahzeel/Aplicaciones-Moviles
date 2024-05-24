@@ -2,6 +2,7 @@ package com.example.appcomunitaria.navigation
 
 import android.content.Context
 import androidx.compose.runtime.Composable
+import androidx.navigation.NavController
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -12,14 +13,15 @@ import com.example.appcomunitaria.screens.EncuestasVotaciones
 import com.example.appcomunitaria.screens.ForoComunitario
 import com.example.appcomunitaria.screens.HomeScreen
 import com.example.appcomunitaria.screens.ReporteProblemas
+import com.example.appcomunitaria.screens.UserProfile
 
 @Composable
 fun BancoNavigation(
-    navController: NavHostController,
+    navController: NavController,
     context: Context
 ){
     NavHost(
-        navController = navController,
+        navController = navController as NavHostController,
         startDestination = NavScreen.HomeScreen.name
     ){
         composable(NavScreen.Login.name){
@@ -42,6 +44,9 @@ fun BancoNavigation(
         }
         composable(NavScreen.AlertasNotificaciones.name){
             AlertasNotificaciones()
+        }
+        composable(NavScreen.UserProfile.name) {
+            UserProfile()
         }
     }
 }

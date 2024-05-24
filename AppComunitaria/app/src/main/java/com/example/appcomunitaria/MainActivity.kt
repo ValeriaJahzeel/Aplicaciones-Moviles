@@ -1,6 +1,5 @@
 package com.example.appcomunitaria
 
-import android.content.Context
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -19,8 +18,6 @@ import androidx.navigation.compose.rememberNavController
 import com.example.appcomunitaria.components.NavegacionInferior
 import com.example.appcomunitaria.login.LogIn
 import com.example.appcomunitaria.navigation.BancoNavigation
-import com.example.appcomunitaria.navigation.NavScreen
-import com.example.appcomunitaria.screens.HomeScreen
 import com.example.appcomunitaria.ui.theme.AppComunitariaTheme
 import com.google.firebase.auth.FirebaseAuth
 
@@ -36,14 +33,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     val navController = rememberNavController()
 
-                    //MainScreen(this)
-
-                    if(FirebaseAuth.getInstance().currentUser?.email.isNullOrEmpty()){
-                        LogIn(navController)
-                    } else{
-                        MainScreen(this)
-                    }
-
+                    MainScreen(navController)
                 }
             }
         }
@@ -52,22 +42,22 @@ class MainActivity : ComponentActivity() {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun MainScreen(context: Context) {
-    //LogIn(navController)
-    val navController = rememberNavController()
-
-    Scaffold (
-        bottomBar = {
-            NavegacionInferior(navController)
-        }
-    ) { padding ->
-        Box(
-            modifier = Modifier
-                .padding(padding)
-                .fillMaxSize()
-        ) {
-            BancoNavigation(navController, context)
+fun MainScreen(navController: NavController) {
+    if (FirebaseAuth.getInstance().currentUser?.email.isNullOrEmpty()) {
+        LogIn(navController)
+    } else {
+        Scaffold(
+            bottomBar = {
+                NavegacionInferior(navController)
+            }
+        ) { padding ->
+            Box(
+                modifier = Modifier
+                    .padding(padding)
+                    .fillMaxSize()
+            ) {
+                BancoNavigation(navController, LocalContext.current)
+            }
         }
     }
 }
-

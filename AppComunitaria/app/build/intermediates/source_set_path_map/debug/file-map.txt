@@ -58,10 +58,10 @@ com.example.appcomunitaria.app-material-icons-extended-release-56 C:\Users\chj06
 com.example.appcomunitaria.app-foundation-release-57 C:\Users\chj06\.gradle\caches\transforms-3\f9d9e6113a9c6295d42d53bbcf1c6249\transformed\foundation-release\res
 com.example.appcomunitaria.app-ui-unit-release-58 C:\Users\chj06\.gradle\caches\transforms-3\fa3af0a841e16a95738afa55f68de055\transformed\ui-unit-release\res
 com.example.appcomunitaria.app-ui-util-release-59 C:\Users\chj06\.gradle\caches\transforms-3\fd54ceb27af69f676c8d6d74ee70e854\transformed\ui-util-release\res
-com.example.appcomunitaria.app-res-60 C:\Users\chj06\OneDrive\Documents\Escuela\6_semestre\Dispositivos_Moviles\AplicacionesMoviles\AppComunitaria\app\build\generated\res\processDebugGoogleServices
-com.example.appcomunitaria.app-resValues-61 C:\Users\chj06\OneDrive\Documents\Escuela\6_semestre\Dispositivos_Moviles\AplicacionesMoviles\AppComunitaria\app\build\generated\res\resValues\debug
-com.example.appcomunitaria.app-packageDebugResources-62 C:\Users\chj06\OneDrive\Documents\Escuela\6_semestre\Dispositivos_Moviles\AplicacionesMoviles\AppComunitaria\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.appcomunitaria.app-packageDebugResources-63 C:\Users\chj06\OneDrive\Documents\Escuela\6_semestre\Dispositivos_Moviles\AplicacionesMoviles\AppComunitaria\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.appcomunitaria.app-merged_res-64 C:\Users\chj06\OneDrive\Documents\Escuela\6_semestre\Dispositivos_Moviles\AplicacionesMoviles\AppComunitaria\app\build\intermediates\merged_res\debug
-com.example.appcomunitaria.app-debug-65 C:\Users\chj06\OneDrive\Documents\Escuela\6_semestre\Dispositivos_Moviles\AplicacionesMoviles\AppComunitaria\app\src\debug\res
-com.example.appcomunitaria.app-main-66 C:\Users\chj06\OneDrive\Documents\Escuela\6_semestre\Dispositivos_Moviles\AplicacionesMoviles\AppComunitaria\app\src\main\res
+com.example.appcomunitaria.app-res-60 C:\Users\chj06\OneDrive\Documents\Escuela\6_semestre\Dispositivos_Moviles\Aplicaciones-Moviles\AppComunitaria\app\build\generated\res\processDebugGoogleServices
+com.example.appcomunitaria.app-resValues-61 C:\Users\chj06\OneDrive\Documents\Escuela\6_semestre\Dispositivos_Moviles\Aplicaciones-Moviles\AppComunitaria\app\build\generated\res\resValues\debug
+com.example.appcomunitaria.app-packageDebugResources-62 C:\Users\chj06\OneDrive\Documents\Escuela\6_semestre\Dispositivos_Moviles\Aplicaciones-Moviles\AppComunitaria\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.appcomunitaria.app-packageDebugResources-63 C:\Users\chj06\OneDrive\Documents\Escuela\6_semestre\Dispositivos_Moviles\Aplicaciones-Moviles\AppComunitaria\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.appcomunitaria.app-merged_res-64 C:\Users\chj06\OneDrive\Documents\Escuela\6_semestre\Dispositivos_Moviles\Aplicaciones-Moviles\AppComunitaria\app\build\intermediates\merged_res\debug
+com.example.appcomunitaria.app-debug-65 C:\Users\chj06\OneDrive\Documents\Escuela\6_semestre\Dispositivos_Moviles\Aplicaciones-Moviles\AppComunitaria\app\src\debug\res
+com.example.appcomunitaria.app-main-66 C:\Users\chj06\OneDrive\Documents\Escuela\6_semestre\Dispositivos_Moviles\Aplicaciones-Moviles\AppComunitaria\app\src\main\res

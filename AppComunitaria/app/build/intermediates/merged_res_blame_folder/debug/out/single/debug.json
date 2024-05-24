@@ -8,10 +8,6 @@
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\drawable\\alertas.jpg"
     },
     {
-        "merged": "com.example.appcomunitaria.app-merged_res-65:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.appcomunitaria.app-main-67:/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xxxhdpi_foto_round.webp.flat",
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xxxhdpi\\foto_round.webp"
     },
@@ -20,16 +16,16 @@
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-mdpi\\probleas_foreground.webp"
     },
     {
-        "merged": "com.example.appcomunitaria.app-merged_res-65:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.appcomunitaria.app-main-67:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\drawable_emergencia.png.flat",
+        "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\drawable\\emergencia.png"
     },
     {
-        "merged": "com.example.appcomunitaria.app-merged_res-65:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.appcomunitaria.app-main-67:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.appcomunitaria.app-merged_res-65:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.appcomunitaria.app-main-67:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-hdpi_encuestas.webp.flat",
@@ -48,10 +44,6 @@
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xxhdpi\\alertas_noti.webp"
     },
     {
-        "merged": "com.example.appcomunitaria.app-merged_res-65:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.appcomunitaria.app-main-67:/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
@@ -64,32 +56,36 @@
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xxxhdpi\\probleas_round.webp"
     },
     {
-        "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xhdpi_alertas_noti.webp.flat",
-        "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xhdpi\\alertas_noti.webp"
-    },
-    {
-        "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-hdpi_alertas_noti.webp.flat",
-        "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-hdpi\\alertas_noti.webp"
+        "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xxhdpi_encuestas_foreground.webp.flat",
+        "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xxhdpi\\encuestas_foreground.webp"
     },
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-mdpi_encuestas.webp.flat",
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-mdpi\\encuestas.webp"
     },
     {
-        "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xxhdpi_encuestas_foreground.webp.flat",
-        "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xxhdpi\\encuestas_foreground.webp"
+        "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-hdpi_alertas_noti.webp.flat",
+        "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-hdpi\\alertas_noti.webp"
     },
     {
-        "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-anydpi-v26_alerta.xml.flat",
-        "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-anydpi-v26\\alerta.xml"
+        "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xhdpi_alertas_noti.webp.flat",
+        "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xhdpi\\alertas_noti.webp"
     },
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xxxhdpi_probleas.webp.flat",
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xxxhdpi\\probleas.webp"
     },
     {
+        "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-anydpi-v26_alerta.xml.flat",
+        "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-anydpi-v26\\alerta.xml"
+    },
+    {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\drawable-nodpi_poli.png.flat",
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\drawable-nodpi\\poli.png"
+    },
+    {
+        "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-mdpi\\ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\drawable-nodpi_imss.png.flat",
@@ -102,10 +98,6 @@
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-hdpi_alerta_foreground.webp.flat",
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-hdpi\\alerta_foreground.webp"
-    },
-    {
-        "merged": "com.example.appcomunitaria.app-merged_res-65:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.appcomunitaria.app-main-67:/mipmap-xxhdpi/ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-mdpi_encuestas_foreground.webp.flat",
@@ -176,10 +168,6 @@
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-anydpi-v26\\foto_round.xml"
     },
     {
-        "merged": "com.example.appcomunitaria.app-merged_res-65:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.appcomunitaria.app-main-67:/drawable/ic_launcher_background.xml"
-    },
-    {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xxhdpi_alertas_round.webp.flat",
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xxhdpi\\alertas_round.webp"
     },
@@ -206,10 +194,6 @@
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xhdpi_encuestas.webp.flat",
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xhdpi\\encuestas.webp"
-    },
-    {
-        "merged": "com.example.appcomunitaria.app-merged_res-65:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.appcomunitaria.app-main-67:/mipmap-xhdpi/ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xxxhdpi_encuestas.webp.flat",
@@ -268,20 +252,16 @@
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-hdpi\\probleas.webp"
     },
     {
-        "merged": "com.example.appcomunitaria.app-merged_res-65:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.appcomunitaria.app-main-67:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xhdpi_alerta.webp.flat",
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xhdpi\\alerta.webp"
     },
     {
-        "merged": "com.example.appcomunitaria.app-merged_res-65:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.appcomunitaria.app-main-67:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.appcomunitaria.app-merged_res-65:/drawable_cruzroja.png.flat",
+        "source": "com.example.appcomunitaria.app-main-67:/drawable/cruzroja.png"
     },
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xxxhdpi_encuestas_foreground.webp.flat",
@@ -300,6 +280,10 @@
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xhdpi\\foto_foreground.webp"
     },
     {
+        "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-hdpi_foto.webp.flat",
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-hdpi\\foto.webp"
     },
@@ -310,6 +294,10 @@
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xxhdpi_alerta_foreground.webp.flat",
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xxhdpi\\alerta_foreground.webp"
+    },
+    {
+        "merged": "com.example.appcomunitaria.app-merged_res-65:/drawable_proteccion_civil_logo_gen.png.flat",
+        "source": "com.example.appcomunitaria.app-main-67:/drawable/proteccion_civil_logo_gen.png"
     },
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xhdpi_directorio.webp.flat",
@@ -328,8 +316,8 @@
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xhdpi\\alertas.webp"
     },
     {
-        "merged": "com.example.appcomunitaria.app-merged_res-65:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.appcomunitaria.app-main-67:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-hdpi\\ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-hdpi_ic_launcher.webp.flat",
@@ -338,14 +326,6 @@
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xxxhdpi_foto_foreground.webp.flat",
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xxxhdpi\\foto_foreground.webp"
-    },
-    {
-        "merged": "com.example.appcomunitaria.app-merged_res-65:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.appcomunitaria.app-main-67:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.appcomunitaria.app-merged_res-65:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.appcomunitaria.app-main-67:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xhdpi_probleas.webp.flat",
@@ -420,16 +400,8 @@
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-mdpi\\alerta_round.webp"
     },
     {
-        "merged": "com.example.appcomunitaria.app-merged_res-65:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.appcomunitaria.app-main-67:/mipmap-hdpi/ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-anydpi-v26_alertas.xml.flat",
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-anydpi-v26\\alertas.xml"
-    },
-    {
-        "merged": "com.example.appcomunitaria.app-merged_res-65:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.appcomunitaria.app-main-67:/mipmap-hdpi/ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-anydpi-v26_encuestas_round.xml.flat",
@@ -450,10 +422,6 @@
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xxhdpi_foto.webp.flat",
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xxhdpi\\foto.webp"
-    },
-    {
-        "merged": "com.example.appcomunitaria.app-merged_res-65:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.appcomunitaria.app-main-67:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xxhdpi_probleas_round.webp.flat",
@@ -502,10 +470,6 @@
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xxxhdpi_directorio_foreground.webp.flat",
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xxxhdpi\\directorio_foreground.webp"
-    },
-    {
-        "merged": "com.example.appcomunitaria.app-merged_res-65:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.appcomunitaria.app-main-67:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\drawable-nodpi_problemas.jpg.flat",
@@ -562,10 +526,6 @@
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-xxxhdpi_alertas_noti.webp.flat",
         "source": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-main-67:\\mipmap-xxxhdpi\\alertas_noti.webp"
-    },
-    {
-        "merged": "com.example.appcomunitaria.app-merged_res-65:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.appcomunitaria.app-main-67:/mipmap-mdpi/ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\chj06\\.gradle\\daemon\\8.2\\com.example.appcomunitaria.app-merged_res-65:\\mipmap-hdpi_ic_launcher_round.webp.flat",

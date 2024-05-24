@@ -5,6 +5,7 @@ import androidx.compose.material.icons.outlined.AttachMoney
 import androidx.compose.material.icons.outlined.Call
 import androidx.compose.material.icons.outlined.ChatBubble
 import androidx.compose.material.icons.outlined.Notifications
+import androidx.compose.material.icons.outlined.People
 import androidx.compose.material.icons.outlined.QuestionMark
 import androidx.compose.material.icons.outlined.WarningAmber
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -39,5 +40,10 @@ sealed class Items_bottom_nav (
         Icons.Outlined.WarningAmber,
         "Reportes",
         NavScreen.ReporteProblemas.name
+    )
+    object Item_bottom_nav6: Items_bottom_nav(
+        Icons.Outlined.People,
+        "Mi perfil",
+        NavScreen.UserProfile.name
     )
 }
