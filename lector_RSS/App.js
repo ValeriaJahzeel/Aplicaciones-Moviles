@@ -26,7 +26,7 @@ const NewsFeed = () => {
                     }));
                     setNews(newsItems);*/
                     items.forEach((item) => {
-                        console.log(item.pubDate);
+                        console.log(item.title);
                         const newsItem = {
                             title: item.title,
                             description: item.description,
@@ -53,7 +53,7 @@ const NewsFeed = () => {
         <View style={styles.newsItem}>
             <Text style={styles.title}>{item.title}</Text>
             <Text style={styles.description}>{item.description}</Text>
-            <Text style={styles.pubDate}>{new Date(item.pubDate).toLocaleDateString()}</Text>
+            {/* <Text style={styles.pubDate}>{new Date(item.pubDate).toLocaleDateString()}</Text> */}
             <Text style={styles.link}>{item.link}</Text>
         </View>
     );
